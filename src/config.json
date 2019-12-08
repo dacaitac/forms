@@ -1,0 +1,33 @@
+{
+    "backURL": "https://aieseccolombia.org",
+    "port": ":8443",
+    "podio": {
+        "user": {
+            "username": "itmanager@aieseccolombia.org",
+            "password": "mcColombia1617"
+        },
+        "ogv": {
+            "appId": 17379862,
+            "appToken": "1723b96a6f9e43cd82b470f7f6ab1dc2",
+            "clientId": "node-ogx",
+            "clientSecret": "jgRFhxO0zSbAneKUWirhQZbcJ8w1VQUcf0FTJc6jne9YCe8Xx7NBqoJ8RkbcXn90"
+        },
+        "ogt": {
+            "appId": 17376671,
+            "appToken": "35dcfb3e684f414f9cd2de1b2cb97115",
+            "clientId": "node-ogx",
+            "clientSecret": "jgRFhxO0zSbAneKUWirhQZbcJ8w1VQUcf0FTJc6jne9YCe8Xx7NBqoJ8RkbcXn90"
+        },
+        "oge": {
+            "appId": 17129818,
+            "appToken": "036c4cdb360d488fbcdbc44174f93572",
+            "clientId": "node-ogx",
+            "clientSecret": "jgRFhxO0zSbAneKUWirhQZbcJ8w1VQUcf0FTJc6jne9YCe8Xx7NBqoJ8RkbcXn90"
+        }
+    },
+    "expa": {
+        "username": "dev.colombia@ai.aiesec.org",
+        "password": "ITcolombia1718",
+        "mc_id": 1551
+    }    
+}

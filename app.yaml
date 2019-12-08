@@ -1,0 +1,20 @@
+# [START runtime]
+runtime: nodejs
+env: flex
+# [END runtime]
+
+# [START handlers]
+handlers:
+ - url: /
+   static_files: build/index.html
+   upload: build/index.html
+
+ - url: /(.*)
+   static_files: build/\1
+   upload: build/(.*)
+# [END handlers]
+
+# [ START NETWORK ]
+vpc_access_connector:
+  name: "projects/pelagic-cat-137923/locations/us-central1/connectors/formsback"
+# [ END NETWORK ]
